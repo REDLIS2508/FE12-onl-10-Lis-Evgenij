@@ -1,0 +1,38 @@
+.section-customers{
+    padding: 80px 100px 80px 100px;
+
+}
+.conteiner-customers{
+
+}
+.conteiner-title{
+    
+}
+.customers-text{
+    margin-bottom: 67px
+}
+.customers-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.customers-row__box{
+    max-width: 298px;
+
+}
+.customers-row__text{
+
+}
+.customers-team{
+
+}
+.team-image{
+
+}
+.team-title{
+
+}
+span{
+
+}
