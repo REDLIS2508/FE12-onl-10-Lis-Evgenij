@@ -1,0 +1,69 @@
+.section-social{
+   background-color: #F8EFEF;
+   padding: 14px 0 17px 0;
+}
+.container-social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.social-row__title{
+    margin-bottom: 14px;
+    color: #333333;
+}
+.social-row__text{
+    color: #86878B;
+    max-width: 365px;
+}
+.social-icon__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 32px;
+    color: #86878B;
+    
+    
+}
+.icon__list i{
+    margin-right: 40px;
+    color: #86878B;
+}
+.icon__list i:hover{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook i:hover{
+    color: #3B5998;
+    border: 1px solid #3B5998;    
+}
+.twitter i:hover{
+    color: #00ACEE;
+    border: 1px solid #00ACEE;
+}
+.googleplus i:hover{
+    color: #3B5998;
+    border: 1px solid #3B5998;
+}
+.pinterest i:hover{
+    color: red;
+    border: 1px solid red;
+}
+.instagram i:hover{
+    color: #b414dc;
+    border: 1px solid #b414dc;
+}
+.whatsapp i:hover{
+    color: #43d854;
+    border: 1px solid #43d854;
+}
+.viber i:hover{
+    color: #7360f2;
+    border: 1px solid #7360f2;
+}

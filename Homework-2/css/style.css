@@ -1,7 +1,10 @@
 @import url("../css/awesome.css");
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
-@import url("../css/pricing.css");
+@import url("../css/axure.css");
+@import url("../css/header.css");
+@import url("../css/footer.css");
+@import url("../css/social.css");
 
 * {
     margin: 0;
@@ -9,23 +12,31 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    text-align: center;
 }
 .container {
     max-width: 1170px;
     padding: 0 15px;
-    margin: auto;
+    margin: 0 auto;
 }
-.pricing-title, .awesome-title, .customers-title {
+.title {
     font-family: raleway;
     font-size: 36px;
     font-weight: 400;
 }
-.pricing-text, .awesome-text, .customers-text {
+.title::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+.text {
     font-size: 14px;
     font-family: open sans;
     font-weight: 400;
-    color: #86878B;
 }
 .row__title{
     font-family: open sans;
@@ -36,16 +47,6 @@
     font-family: open sans;
     font-size: 14px;   
 }
-h2::after{
-    content: '';
-    width: 64px;
-    height: 2px;
-    background-color: #E72424;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 34px;
-    margin-bottom: 34px;
-}
+
 
 

@@ -2,12 +2,18 @@
     margin: 100px 0 109px 0;
     background-color: #ffffff;
 }
-
 .awesome-title{
-    margin-bottom: 25px;  
+    color: #212121;
+    text-align: center;  
 }
-.awesome-text {
+.awesome-title::after{
+    background-color: #E72424;
+}
+
+.awesome-text{
     margin-bottom: 36px;
+    color: #86878B;
+    text-align: center;
 }
 .awesome-row{
     display: flex;
@@ -20,18 +26,19 @@
     margin-bottom: 32px;
     max-width: 350px;
     margin: 0 15px;
+    text-align: center;
 }
 .awesome-row__images{
-max-width: 70px;
-min-height: 70px;
-border-radius: 35px;
-border: 1px solid #D98943;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 30px;
+    max-width: 70px;
+    min-height: 70px;
+    border-radius: 35px;
+    border: 1px solid #D98943;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
 }
 .awesome-row__title{
     margin-bottom: 16px;

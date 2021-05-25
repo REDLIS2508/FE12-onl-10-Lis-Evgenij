@@ -2,26 +2,31 @@
     padding: 80px 100px 80px 100px;
     background-color: #e5e5e5;
 }    
-
 .pricing-title{
-    margin-bottom: 34px;  
+    color: #212121; 
+    text-align: center; 
 }
-.pricing-text{ 
-    margin-bottom: 63px;  
+.pricing-title::after{
+    background-color: #E72424;
+}
+.pricing-text { 
+    color: #86878B;
+    margin-bottom: 63px;
+    text-align: center; 
 }
 .pricing-row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around; 
-
 }
 .pricing-row__box{
-    width: 340px;
+    width: 340px; 
+    text-align: center; 
 }
 .pricing-row__title{
     padding: 15px 0 9px 0;
-    color: #FFFFFF 50%;
+    color: #FFFFFF;
     background: #333333;
     margin-bottom: 1px;
 }
@@ -33,22 +38,24 @@
     margin-bottom: 2px;
     color: #ffffff;
     background-color: #333333;
-
 }
 .pricing-row__text{
     font-weight: 600;
     padding: 17px 0 14px 0;
     margin-bottom: 4px;
     background: #333333;
-
+    transition: 0.35s;
+}
+.pricing-row__text:hover{
+    background-color: #D98943;
+    color: #FFFFFF;
 }
 .prasing-row__list{
-    list-style-type: none;
     font-size: 14px;
-    font-family: open sans-serif;
+    font-family: open sans;
     font-weight: 400;
 }
-li{
+.row__list{
     margin-bottom: 1px;
     padding: 10px 0 11px 0;
     background: #ffffff;

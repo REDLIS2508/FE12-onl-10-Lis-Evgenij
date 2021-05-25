@@ -1,0 +1,54 @@
+.section-axure {
+    background-image: url("../img/background\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 58px 0 49px 0;
+
+}
+.section-axure::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container-axure{
+    position: relative;
+    z-index: 1;
+}
+.axure-title{
+ color: #FFFFFF;
+ text-align: center;   
+}
+.axure-title::after{
+    background-color: #FFFFFF;
+}
+.axure-text {
+    margin-bottom: 57px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+.btn{
+    max-width: 135px;
+    padding: 11px 26px;
+    font-family: open sans;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 1px solid#FFFFFF; 
+    transition: 0.5s; 
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.btn:hover{
+    background-color: #D98943;
+    color: #FFFFFF;
+    border: 1px solid ##FFFFFF;
+    border-radius: 10px;
+}
